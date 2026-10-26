@@ -49,5 +49,22 @@
 			"new_sqlite_classes": ["WorkflowStatusDO"]
 		}
 	],
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"previews": {
+		"durable_objects": {
+			"bindings": [
+				{
+					"name": "WORKFLOW_STATUS",
+					"class_name": "WorkflowStatusDO"
+				}
+			]
+		},
+		"workflows": [
+			{
+				"name": "my-workflow",
+				"binding": "MY_WORKFLOW",
+				"class_name": "MyWorkflow"
+			}
+		]
+	}
 }
